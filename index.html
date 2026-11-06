@@ -5,7 +5,10 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Simple mobile guides and useful information.">
 <title>Smart Info Hub</title>
+<!-- NATIVE BANNER SCRIPT -->
 <script async="async" data-cfasync="false" src="https://bancadeltempoidea.org/21/63229b988a5c882a64bf61d0e9b82920"></script>
+<!-- SOCIAL BAR + POPUNDER SCRIPT -->
+<script data-cfasync="false" src="https://bancadeltempoidea.org/14/a69372f3c12cfa663b6c187c6f63aa2f"></script>
 <style>
 *{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f3f6fc;color:#172033;line-height:1.6}
 header{padding:28px 18px 34px;color:white;background:linear-gradient(120deg,#142b63,#245bd8,#12a69c)}
@@ -19,28 +22,4 @@ h2{margin:25px 0 12px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap
 </style>
 </head>
 <body>
-<header><div class="wrap"><div class="logo">✨ SMART INFO HUB</div><h1>Learn something useful today.</h1><div class="sub">Simple guides, mobile tips, internet safety, and general knowledge — all in one easy-to-use place.</div>
-<div class="search"><input id="q" placeholder="Search guides..." oninput="filterCards()"><button onclick="filterCards()">Search</button></div></div></header>
-<main class="wrap"><div class="notice"><b>Welcome!</b> Explore easy-to-read educational guides and useful digital tips.</div>
-
-<!-- ADSTERRA BANNER - YAHAN SE SHURU -->
-<div class="ad">
-<div id="container-63229b988a5c882a64bf61d0e9b82920"></div>
-</div>
-<!-- ADSTERRA BANNER - YAHAN KHATAM -->
-
-<h2>Explore helpful guides</h2><section class="grid" id="cards">
-<div class="card" data-keys="phone android storage mobile"><div class="icon">📱</div><div class="tag">MOBILE TIPS</div><h3>Make your phone easier to use</h3><p>Simple ideas for organizing apps, managing storage, and keeping your phone updated.</p><button onclick="show('phone')">Read guide →</button></div>
-<div class="card" data-keys="internet safety passwords privacy"><div class="icon">🔐</div><div class="tag">INTERNET SAFETY</div><h3>Stay safer online</h3><p>Learn about strong passwords, privacy settings, and suspicious links.</p><button onclick="show('safety')">Read guide →</button></div>
-<div class="card" data-keys="knowledge science geography"><div class="icon">🌍</div><div class="tag">KNOWLEDGE</div><h3>Everyday general knowledge</h3><p>Short explanations about science, geography, and the world around us.</p><button onclick="show('facts')">Read guide →</button></div>
-<div class="card" data-keys="study learning notes"><div class="icon">📚</div><div class="tag">LEARNING</div><h3>Build a simple study routine</h3><p>Break learning into small sessions, take clear notes, and review regularly.</p><button onclick="show('study')">Read guide →</button></div>
-<div class="card" data-keys="website hosting internet web"><div class="icon">💻</div><div class="tag">WEB BASICS</div><h3>How a website becomes public</h3><p>Understand hosting, website files, and sharing a public link.</p><button onclick="show('web')">Read guide →</button></div>
-<div class="card" data-keys="creative copyright content"><div class="icon">🎨</div><div class="tag">CREATIVITY</div><h3>Create original digital content</h3><p>Make useful posts and videos while respecting creators’ rights.</p><button onclick="show('create')">Read guide →</button></div>
-</section><section id="article" class="article"></section>
-</main><footer><div class="wrap"><b>SMART INFO HUB</b><br>General educational information. Check reliable official sources for important decisions.<br>© <span id="year"></span> Smart Info Hub</div></footer>
-<script>
-const data={phone:["Phone tips",["Remove apps you no longer use.","Review storage in Settings and clear unneeded downloads.","Install updates from your device's official app store."]],safety:["Stay safer online",["Use a unique password for each important account.","Never share passwords or one-time verification codes.","Be careful with unexpected links and offers."]],facts:["Everyday knowledge",["Earth is the third planet from the Sun.","Water can exist as a solid, liquid, or gas.","Maps use symbols and scale to represent real places."]],study:["Study routine",["Choose one small topic at a time.","Study in manageable sessions with short breaks.","Explain the topic in your own words to review it."]],web:["Website basics",["A website contains files such as HTML, CSS, and images.","Hosting stores those files and serves them to visitors.","Search engines may take time to discover a new website."]],create:["Original content",["Start with an idea you can explain clearly.","Use your own writing, images, or properly licensed materials.","Respect other creators' work and permissions."]]};
-function show(k){let d=data[k];document.getElementById('article').innerHTML='<button onclick="document.getElementById(\'article\').style.display=\'none\'">← Back</button><h2>'+d[0]+'</h2>'+d[1].map(x=>'<p>• '+x+'</p>').join('');document.getElementById('article').style.display='block';document.getElementById('article').scrollIntoView({behavior:'smooth'});}
-function filterCards(){let q=document.getElementById('q').value.toLowerCase();document.querySelectorAll('.card').forEach(c=>c.style.display=(c.innerText+' '+c.dataset.keys).toLowerCase().includes(q)?'':'none');}
-document.getElementById('year').textContent=new Date().getFullYear();
-</script></body></html>
+<header><div class="wrap"><div

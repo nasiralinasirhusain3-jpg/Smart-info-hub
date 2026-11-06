@@ -3,23 +3,42 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Simple mobile guides and useful information.">
 <title>Smart Info Hub</title>
-<!-- NATIVE BANNER SCRIPT -->
-<script async="async" data-cfasync="false" src="https://bancadeltempoidea.org/21/63229b988a5c882a64bf61d0e9b82920"></script>
-<!-- SOCIAL BAR + POPUNDER SCRIPT -->
-<script data-cfasync="false" src="https://bancadeltempoidea.org/14/a69372f3c12cfa663b6c187c6f63aa2f"></script>
+<meta name="description" content="Simple mobile guides and useful information.">
 <style>
 *{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f3f6fc;color:#172033;line-height:1.6}
 header{padding:28px 18px 34px;color:white;background:linear-gradient(120deg,#142b63,#245bd8,#12a69c)}
 .wrap{max-width:1000px;margin:auto;padding:0 16px}.logo{font-weight:bold;font-size:21px}h1{font-size:clamp(32px,6vw,52px);line-height:1.1;margin:30px 0 10px}.sub{max-width:650px;color:#e8efff}
-.search{display:flex;gap:8px;max-width:600px;margin-top:20px}.search input{flex:1;min-width:0;padding:13px;border:0;border-radius:10px;font-size:16px}.search button{padding:13px 18px;border:0;border-radius:10px;background:#ffcf55;font-weight:bold}
 main{padding:26px 0 45px}.notice{background:#fff8df;border:1px solid #efdfa6;border-radius:12px;padding:12px;margin-bottom:18px}
-.ad{min-height:100px;border:1px dashed #9eabc1;border-radius:13px;background:white;display:grid;place-items:center;text-align:center;color:#68748a;margin:20px 0;padding:15px}
+.adbox{background:white;border:1px dashed #9eabc1;border-radius:13px;padding:10px;margin:20px 0;text-align:center;min-height:120px}
 h2{margin:25px 0 12px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:white;border:1px solid #e3e9f3;border-radius:15px;padding:18px}.icon{font-size:30px}.tag{font-size:12px;color:#2457c8;font-weight:bold}.card h3{margin:6px 0}.card p{color:#66718a;margin:0}.card button{border:0;background:none;color:#2457c8;font-weight:bold;padding:12px 0 0;font-size:15px}
 .article{display:none;background:white;border-radius:14px;padding:20px;margin-top:18px}.article.show{display:block}footer{border-top:1px solid #e0e6ef;padding:22px 0;color:#68748a;font-size:14px}
-@media(max-width:700px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.grid{grid-template-columns:1fr}.search{flex-direction:column}.search button{width:100%}}
+@media(max-width:700px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header><div class="wrap"><div
+<header><div class="wrap"><div class="logo">✨ SMART INFO HUB</div><h1>Learn something useful today.</h1><div class="sub">Simple guides, mobile tips, internet safety, and general knowledge — all in one easy-to-use place.</div></div></header>
+
+<main class="wrap">
+<div class="notice"><b>Welcome!</b> Explore easy-to-read educational guides and useful digital tips.</div>
+
+<!-- NATIVE BANNER AD - 1 -->
+<div class="adbox">
+<script async="async" data-cfasync="false" src="https://bancadeltempoidea.org/21/63229b988a5c882a64bf61d0e9b82920"></script>
+<div id="container-63229b988a5c882a64bf61d0e9b82920"></div>
+</div>
+
+<h2>Explore helpful guides</h2>
+<section class="grid" id="cards">
+<div class="card"><div class="icon">📱</div><div class="tag">MOBILE TIPS</div><h3>Make your phone easier to use</h3><p>Simple ideas for organizing apps, managing storage, and keeping your phone updated.</p><button onclick="show('phone')">Read guide →</button></div>
+<div class="card"><div class="icon">🔐</div><div class="tag">INTERNET SAFETY</div><h3>Stay safer online</h3><p>Learn about strong passwords, privacy settings, and suspicious links.</p><button onclick="show('safety')">Read guide →</button></div>
+<div class="card"><div class="icon">🌍</div><div class="tag">KNOWLEDGE</div><h3>Everyday general knowledge</h3><p>Short explanations about science, geography, and the world around us.</p><button onclick="show('facts')">Read guide →</button></div>
+<div class="card"><div class="icon">📚</div><div class="tag">LEARNING</div><h3>Build a simple study routine</h3><p>Break learning into small sessions, take clear notes, and review regularly.</p><button onclick="show('study')">Read guide →</button></div>
+<div class="card"><div class="icon">💻</div><div class="tag">WEB BASICS</div><h3>How a website becomes public</h3><p>Understand hosting, website files, and sharing a public link.</p><button onclick="show('web')">Read guide →</button></div>
+<div class="card"><div class="icon">🎨</div><div class="tag">CREATIVITY</div><h3>Create original digital content</h3><p>Make useful posts and videos while respecting creators’ rights.</p><button onclick="show('create')">Read guide →</button></div>
+</section>
+<section id="article" class="article"></section>
+
+<!-- NATIVE BANNER AD - 2 (neeche wala) -->
+<div class="adbox">
+<div id="container-63229b988
